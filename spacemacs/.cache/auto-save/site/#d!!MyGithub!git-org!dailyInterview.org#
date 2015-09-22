@@ -1,0 +1,43 @@
+* DailyInterview.org
+* this file is used to note learning and preparing Interview
+* time arrange : mornini : consider, evening : improve familiar
+* <2015-09-06 周日 22:20>[0/1]lesson 2, part two cd 
+** TODO need familiar to write the basic C++ code
+** stack FirstInLastOut : only the top element is visible
+** look at ppt carefully
+*** data structure : support which operation and its complexity
+*** usually implement stack with array 
+*** issue : require write code with pencil and paper quickly
+leetcode 225 : use queue to implement one stack
+leetcode 232 : use stack to implement one queue
+leetcode 155 : getmin form one stack
+leetcode 84 : given a zhifangtu, ask the maximum area of square if can extend
+* <2015-09-07 周一 13:38>[/]
+** basic three steps : concurrent and in loop form 
+*** TODO familiar to write cpp code
+*** TODO write ppt code
+*** TODO continute to learn and review relevant videos
+* <2015-09-09 周三 00:22>[0/8]
+** put attitude to right postition : broaden one's horizen
+should try anthing wanted
+** TODO finish QQ crowd's resume information and set up right main page
+** TODO org checkbox : great to split a task into a number of simple steps
+** TODO finish baiduyun tongbupan
+** TODO finish the lesson two video and note org
+** TODO vs is too huge, what about dev c++?
+** TODO git push.default ?
+** TODO must git commit when file changed?
+deelply comprehen cmd 'git command'
+** TODO clear the git-learn as soon as 
+* <2015-09-17 周四 10:23> 
+再次被言中了！
+
+顺道说两个事情：
+1、注意julyedu.com问答社区的帖子。
+2、算法班太重要了（为何重要，你懂的）。
+* <2015-09-21 周一 09:23>[/] 
+** write examination for qunar : 
+- no matter which programming language, attention:
+  - operator to file ::
+    - write/read in file :: 
+    - :: 

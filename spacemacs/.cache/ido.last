@@ -1,0 +1,35 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("d:/" . "VMware10.0.2/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "d:/"
+ "d:/MyGithub/git-learn/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "findowrk.org"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("d:/MyGithub/git-learn/" (21996 10419 0 0) "dailyWork.org" "dailySpacemacs.org" ".git/" "../" "./")
+
+ ("d:/MyGithub/" (21996 8650 0 0) "spacemacs/" "git-org/" "git-learn/" "git-dotfiles/" "../" "./")
+
+ ("d:/VMware10.0.2/" (21360 61637 0 0) "VMware/" "eclipse/" "../" "./")
+
+ ("d:/MyTool/" (21988 11505 0 0) "FirefoxfanSidebarFree/" "emacs-bin-w64-24.5-1.7z" "emacs/" "dexpot_1614_portable_r2439.zip" "dexpot_1614_portable_r2439/" "BeyondCompare.zip" "Beyond Compare/" "../" "./")
+
+ ("d:/MyTool/emacs/" (21988 11505 0 0) "var/" "share/" "libexec/" "bin/" "../" "./")
+
+ ("d:/MyTool/emacs/bin/" (21989 12537 0 0) "zlib1.dll" "runemacs.exe" "libXpm-noX4.dll" "libxml2-2.dll" "libwinpthread-1.dll" "libtiffxx-5.dll" "libtiff-5.dll" "libtasn1-6.dll" "librsvg-2-2.dll" "libpng16-16.dll" "libpixman-1-0.dll" "libpangowin32-1.0-0.dll" "libpangoft2-1.0-0.dll" "libpangocairo-1.0-0.dll" "libpango-1.0-0.dll" "libp11-kit-0.dll" "libnettle-4-7.dll" "liblzma-5.dll" "libjpeg-8.dll" "libjbig-0.dll" "libintl-8.dll" "libiconv-2.dll" "libhogweed-2-5.dll" "libharfbuzz-icu-0.dll" "libharfbuzz-gobject-0.dll" "libharfbuzz-0.dll" "libgomp-1.dll" "libgobject-2.0-0.dll" "libgnutlsxx-28.dll" "libgnutls-openssl-27.dll" "libgnutls-28.dll" "libgmp-10.dll" "libgmodule-2.0-0.dll" "libglib-2.0-0.dll" "libgio-2.0-0.dll" "libgif-7.dll" "libgdk_pixbuf-2.0-0.dll" "libgcc_s_seh-1.dll" "libfreetype-6.dll" "libfontconfig-1.dll" "libffi-6.dll" "libexpat-1.dll" "libdbus-1-3.dll" "libcroco-0.6-3.dll" "libcairo-script-interpreter-2.dll" "libcairo-gobject-2.dll" "libcairo-2.dll" "libbz2-1.dll" "grep-changelog" "etags.exe" "emacsclientw.exe" "emacsclient.exe" "emacs.exe" "emacs-24.5.exe" "ebrowse.exe" "ctags.exe" "addpm.exe" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

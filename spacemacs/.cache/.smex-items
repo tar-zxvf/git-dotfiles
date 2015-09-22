@@ -1,0 +1,131 @@
+
+;; ----- smex-history -----
+(
+ spacemacs-buffer/goto-link-line
+ kill-buffer
+ remember
+ org-remove-file
+ spacemacs/org-bold
+ compile-defun
+ c++-mode
+ makefile-mode
+ compile
+ srefactor-refactor-at-point
+ new-empty-buffer
+ smex-major-mode-commands
+ make-directory
+ find-file
+ python-mode
+ package-list-packages
+ window-numbering-mode
+ new-frame
+ shell
+ org-mode
+ remember-notes
+ save-buffer
+ font-show-log
+ org-ctrl-c-minus
+ whois
+ org-capture
+ helm-org-capture-templates
+ toggle-frame-maximized
+ minimize-window
+ maximize-window
+ evil-window-new
+ Buffer-menu-view-other-window
+)
+
+;; ----- smex-data -----
+(
+ (global-auto-complete-mode . 1)
+ (save-buffer . 5)
+ (customize-themes . 1)
+ (find-file . 24)
+ (spacemacs/org-bold . 15)
+ (spacemacs/org-italic . 6)
+ (spacemacs/org-underline . 1)
+ (recover-file . 13)
+ (org-clock-in . 7)
+ (org-clock-out . 3)
+ (org-clock-cancel . 2)
+ (org-sparse-tree . 10)
+ (spacemacs/org-code . 9)
+ (org-pomodoro . 21)
+ (spacemacs/smex-major-mode-commands . 2)
+ (org-pomodoro-extend-last-clock . 2)
+ (find-alternate-file . 3)
+ (org-timer-set-timer . 1)
+ (org-time-stamp . 4)
+ (erase-buffer . 1)
+ (org-timer-start . 1)
+ (org-timer-stop . 1)
+ (toggle-truncate-lines . 2)
+ (rename-file . 3)
+ (server-start . 1)
+ (dired-jump . 1)
+ (dired . 12)
+ (dired-tree-up . 1)
+ (dired-find-file . 1)
+ (dired-goto-file . 1)
+ (ido-dired . 4)
+ (eww . 5)
+ (eww-mode . 1)
+ (emacs-version . 1)
+ (kill-buffer . 10)
+ (whois . 3)
+ (org-set-tags . 1)
+ (ido-mode . 2)
+ (ido-display-buffer . 1)
+ (package-list-packages . 2)
+ (package-show-package-list . 1)
+ (package-list-packages-no-fetch . 1)
+ (scroll-up . 1)
+ (ediff . 8)
+ (snake . 6)
+ (snake-start-game . 1)
+ (shell . 3)
+ (ediff-files3 . 1)
+ (move-file-to-trash . 1)
+ (remember . 15)
+ (remember-buffer . 1)
+ (remember-clipboard . 1)
+ (set-mark-command . 1)
+ (doc-view-mode . 1)
+ (org-mode . 7)
+ (string-insert-rectangle . 2)
+ (org-toggle-checkbox . 7)
+ (org-calendar-select . 1)
+ (org-agenda-goto-calendar . 2)
+ (org-calendar-goto-agenda . 1)
+ (org-date-from-calendar . 1)
+ (org-goto-calendar . 2)
+ (calendar . 1)
+ (Buffer-menu-view-other-window . 1)
+ (window-numbering-mode . 3)
+ (evil-window-new . 1)
+ (new-frame . 4)
+ (maximize-window . 1)
+ (minimize-window . 1)
+ (toggle-frame-maximized . 1)
+ (org-capture . 13)
+ (org-capture-mode . 1)
+ (helm-org-capture-templates . 2)
+ (org-ctrl-c-minus . 1)
+ (new-empty-buffer . 9)
+ (font-show-log . 1)
+ (remember-notes . 1)
+ (remember-mode . 1)
+ (smex-major-mode-commands . 5)
+ (python-mode . 1)
+ (python-skeleton-def . 1)
+ (make-directory . 3)
+ (c++-mode . 6)
+ (c-c++-menu . 1)
+ (mail-abbrev-insert-alias . 1)
+ (srefactor-refactor-at-point . 1)
+ (compile . 2)
+ (makefile-mode . 1)
+ (compile-defun . 4)
+ (org-remove-file . 1)
+ (spacemacs-buffer/goto-link-line . 3)
+)

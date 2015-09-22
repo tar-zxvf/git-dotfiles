@@ -1,0 +1,272 @@
+* DailySpacemacs.org
+** this file is used to note the progress in learning *spacemacs* (emacs for vim)
+** layout:
+1. some instructions and conclusions
+2. the daily learning spacemacs progress divided by date
+** about spacemacs                                              :spacemacs:
+1.only install org and smex
+2.start org file 
+3.use pomodoro
+*** next:(do not use next, use TODO)
+improve org and learn how to look for key-binding
+Remember: Only: org,when org finished then else
+*** <2015-08-25 周二> 
+1. global-linum-mode
+   SPC t r : relative linum
+2. 
+** TODO about org                                                     :org:
+1. only can write something 
+2. wanted: schedule,todo,count time,GTD
+3. use unfold to save daily thinking 
+* the unforgot original intention
+** learn org to note daily learning experience and review quickly 
+** the ultimate target is to *speed up* the learning process with org
+** the key tools : timestamp clock and org-pomodoro
+* some keybinding:
+** about line
+- spc t n : 
+- spc t r :
+- spc t l :
+- spc f e R : reload .spacemacs
+** change path in find-file:
+** must master the emacs basic key-binding
+** org key-binding:
+*** some mode about org
+,n
+,N
+- M-RET :: this two key-bindings have the similar functions to handly headings
+- M-S-RET ::
+     
+- , p :: org-pomodoro
+- , : :: org-set-tags
+- TODO :: 
+  - t / spc u t
+  - S-left/right ::
+  - , a t
+- SCHEDULED :: ,s
+- DEADLINE :: ,d
+- repeater :: <2007-05-16 Wed 12:30 +1w>  d w m y 
+- agenda view :: ,a
+  - C-c [ :: add file to the front of the list, with 'spc u', add to the end
+  - C-] ::
+  - C-, ::
+- ARCHIVE:: 
+  - [ ] internal :: C-c C-x a , tag :ARCHIVE: , only open with C-TAB
+  - external :: ,A
+- checkbox :: spc m ,
+- spc m , :: update [0/0] in the position
+- time and data ::
+  - ,I  ,O :: 
+*** some navigation in org file, avaliable in different cases
+- M - h/j/k/l : move with the self heading  to different level and the content
+- M - S - h/j/k/l : move with subtree
+- g - h/j/k/l
+*** fixed modle in different cases
+M-RET : insert the same level heading, if the cursor is on some content,
+        the content after the cursor is the heading inserted
+M-S-RET : all as above except insert TODO item
+*** some details in todo  
+
+-
+C-c -
+
+C-c C-c
+
+  - internal/external/internet links are the same format essentially
+  - internal link in the same file
+  - [ [file:/home/photo/a.jpg/] [refer one jpg] ]
+  - [ [http://www.baidu.com] [refer baidu.com] ]
+
+
+C-c / t
+C-c / m
+ex: d:/MyGithub ->  c:/  
+   just input  d:/MyGithub/c:/  
+* ! CAUTION :
+** one : it is necessary to improve the effiency in searching
+ it wastes a lot of time and the result is not worthy the time
+ the most efficent way is : to ues the cmd at now and then start to work
+** two : the ability needed to be trained out is :
+quickly find the solution and continute to work
+* ! CONSIDERATION :
+** learn sth : 
+  | a good example | Python quick tutorial                     |
+  | self thinking  | quick start                               |
+  |                | some basic, simple, and important content |
+  | question       | concise one or two aspects                |
+  | remember       | only one thing is the most essential      |
+** conclude:
+firstly : the learning note is simple rather complete
+          -- quick start and the concise note
+          the complete note is the tutorial
+          the note is need iterative updated
+                   ----> the reason to use github
+** the roughly learn steps when encouter a Q
+** org-mode and git and programming, all of these are tools
+tools are only needed to be mastered by hands-on used frequently
+* <2015-08-25 周二>[4/10] 
+** DONE copy contents from other software to emacs in windows   :spacemacs:
+CLOSED: [2015-08-25 周二 20:23]
+C-y and p both of them can completet
+** TODO chinese character code  
+maybe the system font question, wait to have time to learn powerline to solve
+** DONE learn how to use C-h to look help information           :spacemacs:
+CLOSED: [2015-08-25 周二 20:31]
+usually used: C-h k/v/f/m/d/b          the most useful: k/b/f
+            | *k* | keybinding->command |
+            | *b* | binding & command   |
+            | *f* | function            |
+            (the most useful)
+            | m | mode information    |
+            | v | variable            |
+spc ? : another helm descbind c-h b
+        spc\ b
+** DONE [#A] learn the emacs client/server mode
+CLOSED: [2015-09-06 周日 20:11]
+*** some thought about emacs C/S 
+emacs is an OS, so everything can be done in emacs, no need to leave emacs,
+hence, the c/s mode should not encourage
+** TODO statistic the key frequency
+the plug-in url : https://github.com/dacap/keyfreq
+the effect of the plug-in : http://ergoemacs.org/emacs/command-frequency.html
+** TODO config chinese layer by self                              :spacemacs:
+not necessary and after finding a work to finish it 
+** TODO learn how to operate with  org tag                             :org:
+especiall when the tags are too much, ---> how to use modle
+after work
+** TODO learn how to update spacemacs by github from andyque    :spacemacs:
+need cmd snippet
+mainly about git cmds, for isntance : git rebase, git submodule
+** DONE learn spacemacs video <2015-08-26 周三 21:54>
+CLOSED: [2015-09-06 周日 20:21]
+*read documents* is important
+:LOGBOOK:
+CLOCK: [2015-08-26 周三 23:11]--[2015-08-26 周三 23:36] =>  0:25
+CLOCK: [2015-08-26 周三 22:58]--[2015-08-26 周三 23:03] =>  0:05
+:END:
+*** install spacemacs:
+**** read github readme: git clone to .emacs.d, use develop branch
+**** search tools : pt,ag,ack,grep
+*** DONE learn to use git to save self dotfile and update spacemacs
+CLOSED: [2015-09-03 周四 18:37]
+    git branch, 
+    git status,
+    git branch branch_name
+**** git clone specify branch
+     git clone <url> --branch <brach_name> --single-branch <direcory_name>
+# checkout to develop branch
+git checkout --track origin/develop 
+can use cmd tool of shadowsocks to open emacs with proxy
+**** conclude:* firstly, use tool to complete sth. (important)  :condlude:
+          secondly, learn and improve the tool
+*** spacemacs frame:
+**** first load: init.el
+**** based the concept: layer
+***** contrib : the comminuity contribute
+***** !: means it's a group about the fold name
+***** doc : documents about spacemacs
+***** private : private config file about spacemacs
+***** spacemacs : the spacemacs default package loaded
+**** use develop branch and watch the branch:
+advantage: bugfix and new features
+watch: remind other programmers issue 
+*** some tip:
+use-package : lazy load, speed up the startup
+can modify the font and theme
+melpa : emacs package, can visit it's github to read the readme
+** TODO what is major mode and minor mode:
+** DONE add a package to record commands
+add mwe-log-commands to dotspacemacs-additional-package
+(evil-leader/set-key
+  "oll" 'mwe:log-keyboard-commands
+  "olf" 'mwe:open-command-log-buffer)
+relevant configuration look for the dotfile to learn
+**** mwe-log-commands the window question
+* <2015-08-31 周一 19:48>[1/4]
+** DONE make own layer by learning from the spacemacs tutorial vedio
+*** DO NOT makey own layer except the spacemacs/contrib can't include the package needed
+*** DO just modify ~/.spacemacs is OK
+** TODO what is the function of '~/.spacemacs.d'
+** TODO after creating own layer, configure own package
+** TODO git dotfiles
+   use git init this time first
+** TODO emacs org guide is the first  
+   pain point : timestamp and sparse tree
+* <2015-09-01 周二 09:53> [1/2] 
+** TODO check the vim setting, cause the time of spacemacs installation is too much
+*** vim still is the most convient editor across platform, while emacs is an OS meaning to ceratin machine like mac osx
+*** learning some basic vim operation is necessary
+*** after work
+** checkbox : just add [/] or [%] manually simply                 :spacemacs:
+   when convert todo status, the [] will be effective
+** DONE the changed places which myself need                    :spacemacs:
+CLOSED: [2015-09-06 周日 20:30]
+    swiper syntax-checking org markdown auto-completion
+** i can configure my layer the interesting function from the develop branch
+** spacemacs basic concepts:
+  layer : some packages to configure spacemacs 
+  package : dotspacemacs-additional-package
+            some package that don't need to config one layer
+            as to say : the package there is no layer
+** consider the spacemacs layout when use git and about git orgfile
+firstly : can use is the most important
+if not satisfied, can update next version
+* <2015-09-02 周三 13:50>[1/2]
+** DONE org-mode : learn to use sparse tree to look at todo item
+CLOSED: [2015-09-06 周日 20:30]
+:LOGBOOK:
+CLOCK: [2015-09-02 周三 14:29]--[2015-09-02 周三 14:34] =>  0:05
+:END:
+C-c / t, other keys look the help of C-c /
+C-c / m, sparse tree that match tags or properties
+conclusion : now, the two keybinds are enough
+** TODO timestamp and start a timer for a work
+insert current time timestamp : spc u C-c .
+org-clock-in   ,I
+org-clock-out  ,O
+* <2015-09-06 周日 19:58>[0/1]
+** TODO live in emacs
+*** use emacs-w3m to browse internet
+*** read chenhao's mastering-emacs-in-one-year-guide very carefully, deeply understanding
+** TODO self .emacs.d github 
+** change the format of timestamp to English, as Sunday.
+** it is enough to remember the a basic keybindings in emacs tutorial
+* <2015-09-07 周一 11:18>[0/1]
+** package management : quelpa?
+** need to master some basic origin emacs keybindings
+** spacemacs : basic file operation and git in spacemacs
+** use spacemacs as an OS
+* <2015-09-11 周五 18:13>[0/1] 
+** TODO learn to use org-calendar
+** TODO learn to use org-capture, the replacement of remember
+* <2015-09-14 周一 17:41>[0/2] 
+** TODO quickly read and learn org-compact-guide
+:LOGBOOK:
+CLOCK: [2015-09-14 周一 19:05]--[2015-09-14 周一 19:30] =>  0:25
+:END:
+*** description method
+- a small case :: description
+  - checkbox :: 
+- todo :: 
+- agenda ::
+** todo item work time logging
+- highly configurable :: progress logging mechanism 
+** properties:
+- core :: ":properties:"
+- the form ::  ":...:"
+* <2015-09-16 周三 15:46>[0/2] 
+** TODO how to set default font of spacemacs
+** TODO internal link in the same file, the details and examples
+* <2015-09-17 周四 14:51>[/]
+** the process of use emacs:
+use remember or capture in working,
+write down the thought  
+** master the process of org-capture as soon as possilbe
+* <2015-09-21 周一 09:48>[/] 
+** evil-ace-jump-
+- spc l :: -line-mode
+- spc spc spc :: -word-mode
+** interface implement 
+* <2015-09-22 周二 10:20>[/] 
+** inactive time / deactive time
+** capture template :: use given by the article first

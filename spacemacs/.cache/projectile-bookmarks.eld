@@ -1,0 +1,1 @@
+("d:/MyGithub/git-org/" "~/" "d:/" "~/.emacs.d/" "d:/MyGithub/git-learn/" "d:/MyGithub/git-dotfiles/")
